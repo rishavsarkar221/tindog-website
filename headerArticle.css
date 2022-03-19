@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.headerArticle {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.headerImage {
+    margin-left: 15%;
+    border-radius: 30px;
+    margin-top: 5%;
+    width: 65vh;
+}
+
+.headerContent {
+    margin-top: 17vh;
+    margin-left: 35vh;
+}
+
+.headerContent h1 {
+    position: relative;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.headerParagraph {
+    width: 50%;
+    margin-top: 5%;
+    font-family: Calibri;
+}
+
+.headerBtns {
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn1, .btn2 {
+    margin-bottom: 2%;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    margin-right: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid black;
+}
+
+.btn1:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btn2 {
+    background-color: #fff;
+    border: 3px solid black;
+}
+.btn2:hover {
+    background-color: rgb(224, 224, 224);
+    color: #000;
+}
+
+@media screen and (max-width: 800px) {
+    .headerArticle {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .headerContent {
+        margin-left: 1%;
+    }
+    .headerParagraph {
+        width: 98%;
+    }
+    .headerBtns {
+        margin-left: 29%;
+    }
+    .headerImage {
+        margin-top: 45vh;
+        width: 45vh;
+    }
+}

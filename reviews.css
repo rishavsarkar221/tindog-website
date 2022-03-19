@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.reviews {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #FFF388;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 40px;
+}
+
+.reviews h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reviewBar {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.author {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+    .reviewBar {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+}
